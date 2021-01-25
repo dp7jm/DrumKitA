@@ -16,11 +16,14 @@ buttons.forEach((element) => {
         var audio = new Audio("sounds/tom-1.mp3");
         audio.play();
         break;
-      case "d":
+      case "k":
         var audio = new Audio("sounds/tom-1.mp3");
         audio.play();
         break;
-
+      case "j":
+        var audio = new Audio("sounds/tom-1.mp3");
+        audio.play();
+        break;
       default:
         console.log(keyType);
         break;
